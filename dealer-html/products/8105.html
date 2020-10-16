@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+
+<html class="no-js css-menubar" lang="en">
+<head>
+<meta charset="utf-8"/>
+<!--  <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<meta content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" name="viewport"/>
+<!--20190821 CC -->
+<meta content="no-cache" http-equiv="cache-control"/>
+<meta content="-1" http-equiv="expires"/>
+<meta content="no-cache" http-equiv="pragma"/>
+<title>Monarch Direct</title>
+<link href="./images/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="./images/favicon.ico" rel="shortcut icon"/>
+<!-- Stylesheets -->
+<link href="./_assets/css/bootstrap.css" rel="stylesheet"/>
+<link href="./_assets/css/bootstrap-extend.css" rel="stylesheet"/>
+<link href="./_assets/css/site.css" rel="stylesheet"/>
+<link href="./_assets/css/custom/theme.css" rel="stylesheet"/>
+<!-- Plugins -->
+<link href="./_assets/vendor/animsition/animsition.css" rel="stylesheet"/>
+<link href="./_assets/vendor/asscrollable/asScrollable.css" rel="stylesheet"/>
+<link href="./_assets/vendor/switchery/switchery.css" rel="stylesheet"/>
+<link href="./_assets/vendor/intro-js/introjs.css" rel="stylesheet"/>
+<link href="./_assets/vendor/slidepanel/slidePanel.css" rel="stylesheet"/>
+<link href="./_assets/vendor/flag-icon-css/flag-icon.css" rel="stylesheet"/>
+<link href="./_assets/vendor/bootstrap-sweetalert/sweet-alert.css" rel="stylesheet"/>
+<link href="./_assets/vendor/toastr/toastr.css" rel="stylesheet"/>
+<!-- version monarachdirect menu -->
+<link href="./_Custom_V3/css/md_menu.css?542119501962515" rel="stylesheet"/>
+<!-- version 3 monasia menu -->
+<!-- Fonts -->
+<link href="./_assets/fonts/glyphicons/glyphicons.css" rel="stylesheet"/>
+<!-- Glyphicons Pro CSS(font) -->
+<link href="./_assets/fonts/glyphicons-pro/glyphicons-pro.css" rel="stylesheet"/>
+<link href="./_assets/fonts/font-awesome/font-awesome.css" rel="stylesheet"/>
+<link href="./_assets/fonts/material-design/material-design.css" rel="stylesheet"/>
+<link href="./_assets/fonts/web-icons/web-icons.min.css" rel="stylesheet"/>
+<link href="./_assets/fonts/brand-icons/brand-icons.min.css" rel="stylesheet"/>
+<link href="http://fonts.googleapis.com/css?family=Droid+Sans:300,400,500,300italic" rel="stylesheet"/>
+<!-- <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>-->
+<link href="./_assets/fonts/flaticon/flaticon.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+    <script src="./_assets/html5shiv/html5shiv.min.js"></script>
+    <![endif]-->
+<!--[if lt IE 10]>
+    <script src="./_assets/media-match/media.match.min.js"></script>
+    <script src="./_assets/respond/respond.min.js"></script>
+    <![endif]-->
+<!-- Scripts -->
+<script src="./_assets/vendor/modernizr/modernizr.js"></script>
+<script src="./_assets/vendor/breakpoints/breakpoints.js"></script>
+<script>
+	  Breakpoints();
+  </script>
+<!-- Backtop -->
+<link href="./_assets/css/custom/backtop.css" rel="stylesheet"/>
+</meta></head>
+<link href="./_assets/vendor/flag-icon-css/flag-icon.css" rel="stylesheet"/>
+<link href="./_assets/vendor/typeahead-js/typeahead.css" rel="stylesheet"/>
+<link href="./_assets/vendor/jquery-selective/jquery-selective.css" rel="stylesheet"/>
+<link href="./_assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet"/>
+<link href="./_assets/examples/css/advanced/lightbox.css" rel="stylesheet"/>
+<link href="./_assets/vendor/bootstrap-select/bootstrap-select.css" rel="stylesheet"/>
+<link href="./_assets/vendor/bootstrap-datepicker/bootstrap-datepicker.css" rel="stylesheet"/>
+<link href="./_assets/vendor/multi-select/multi-select.css" rel="stylesheet"/>
+<link href="./_assets/vendor/select2/select2.css" rel="stylesheet"/>
+<link href="./_assets/vendor/icheck/icheck.css" rel="stylesheet"/>
+<link href="./_assets/vendor/asspinner/asSpinner.css" rel="stylesheet"/>
+<link href="./_assets/vendor/bootstrap-table/bootstrap-table.css" rel="stylesheet"/>
+<link href="./_assets/vendor/jquery-floatthead/jquery.floatThead.css" rel="stylesheet"/>
+<link href="./_assets/vendor/formvalidation/formValidation.css" rel="stylesheet"/>
+<link href="./_assets/examples/css/forms/validation.css" rel="stylesheet"/>
+<link href="./_assets/examples/css/apps/projects.css" rel="stylesheet"/>
+<link href="./images/favicon.ico" rel="icon"/>
+<!--<link rel="stylesheet" href="_assets/examples/css/forms/advanced.css">-->
+<link href="_assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet"/>
+<link href="_assets/examples/css/advanced/lightbox.css" rel="stylesheet"/>
+<link href="_assets/examples/css/uikit/buttons.css" rel="stylesheet"/>
+<!--Bootstrap table-->
+<link href="_assets/vendor/slick-carousel/slick.css" rel="stylesheet"/>
+<link href="_assets/examples/css/uikit/carousel.css" rel="stylesheet"/>
+<link href="./_assets/examples/css/apps/forum.css" rel="stylesheet"/>
+<style>
+.item-description ul {
+	margin-left: -22px;
+}
+
+.slider {
+	margin: 0 25px 0px;
+}
+
+.slidePanel-show {
+	z-index: 3000;
+}
+
+#email-modal label {
+	line-height: 35px;
+	vertical-align: middle;
+	padding-left: 0px;
+}
+
+#email-modal p {
+	height: 35px;
+	vertical-align: middle;
+	margin: 20px 0px 0px 0px;
+}
+
+#email-modal .alert {
+	padding: 5px 0px 0px 0px;
+	margin: 0px;
+	background-color: #ffffff;
+	border: 0px none;
+}
+
+.product-inquiry .panel {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.product-inquiry .blocks > li {
+  margin-bottom: 30px;
+}
+.product-inquiry .overlay {
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+.product-inquiry .overlay .btn-group {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.product-inquiry .overlay .btn-group-left {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  left:5px;
+}
+.product-inquiry .overlay .btn-icon {
+  color: #bdbdbd;
+}
+.product-inquiry .overlay .btn-icon:hover {
+  color: white;
+}
+.product-inquiry .overlay .project-button {
+  color: white;
+}
+.product-inquiry .overlay .project-button:hover {
+  color: #526069;
+  background-color: white;
+}
+.product-inquiry .overlay-panel {
+  background: rgba(38, 50, 56, .8);
+}
+
+
+.slick-initialized .slick-slide {
+    float: inherit;
+    display: inline-block !important;;
+    vertical-align: middle;
+}
+
+.inline-block img {
+	height: 100% !important;
+}
+.scrollable-content {
+	margin-top: 0px !important;
+}
+.slidePanel-right, .slidePanel-left {
+    top: 0px !important;
+}
+
+
+
+</style>
+<body class="product-inquiry">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please contact IT to upgrade your browser to improve your experience.</p>
+<![endif]-->
+<!-- Navbar Toolbar -->
+<!-- Navbar Toolbar -->
+<nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega bg-light mobile-hidden" role="navigation">
+<div class="navbar-header">
+<button class="navbar-toggle hamburger hamburger-close navbar-toggle-left" data-toggle="menubar" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="hamburger-bar"></span>
+</button>
+<div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+<a href="">
+<img class="navbar-brand-logo nav-main-logo" src="./images/Monarch_Direct_Logo.png" title="MONARCH DIRECT"/>
+</a>
+</div>
+</div>
+<div class="navbar-container container-fluid">
+<!-- Navbar Collapse -->
+<div class="collapse navbar-collapse navbar-collapse-toolbar">
+<!-- Navbar Toolbar -->
+<!-- End Navbar Toolbar -->
+<!-- Navbar Toolbar Right -->
+<ul class="nav navbar-toolbar navbar-right navbar-toolbar-right top-menu">
+<li class="dropdown singal-cartbox">
+<a aria-expanded="false" class="dropdown-toggle" data-animation="scale-up" data-toggle="dropdown" href="javascript:void(0)" role="button">
+<img src="images/monarchdirect_cart.png" width="30"/>
+<div class="singal-cartbox-text text-uppsercase" id="cartInfoTitle">0 ITEM
+								  | TOTAL $0.00
+					  
+				  </div>
+</a>
+<ul class="dropdown-menu" role="menu">
+<li role="presentation">
+<div data-role="container">
+<button class="btn btn-primary checkout-button" id="checkout" onclick="" style="display: none" type="button">VIEW ORDER</button>
+<div data-role="content" id="cartItems"></div>
+<div data-role="content" id="cartItemsempty">
+<div data-role="content">
+<div class="media">
+<div class="media-body padding-left-20">CART IS EMPTY!</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown selector-lg">
+<select class="select2item form-control dropdown-toggle singal" placeholder="Search Item#" style="width: 100%">
+<i aria-hidden="true" class="icon wb-search"></i>
+</select>
+<div id="infodetail">
+</div>
+</li>
+<li class="dropdown">
+<a href="_pages_md_login.asp?action=logout&amp;token="> <button class="btn btn-primary dropdown-toggle singal logout-btn" type="button"><span class="fa fa-power-off"></span> Logout M5143</button> </a>
+</li>
+</ul>
+<!-- End Navbar Toolbar Right -->
+</div>
+</div>
+<div class="bg-white-custom">
+<div class="container-fluid">
+<div class="monarch-second-menu">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 border-right border-left text-uppercase">
+<span class="monarch-anchor">
+<a href="directimport\"> DIRECT IMPORT UPHOLSTERY</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=ACCENTS"> ACCENTS</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=BAR"> BAR</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=BEDROOM"> BEDROOM</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=DINING"> DINING</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=ENTERTAINMENT"> ENTERTAINMENT</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=HOME DECOR"> HOME DECOR</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=LIVING ROOM"> LIVING ROOM</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=OFFICE"> OFFICE</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=TABLES"> TABLES</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=YOUTH"> YOUTH</a>
+</span>
+</div>
+</div>
+<div class="row text-uppercase" id="second_menu">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary" href="./md_accountprofile.asp"> ACCOUNT PROFILE</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary quickOrder" href="javascript: void(0)"> QUICK ORDER / CHECK INVENTORY</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary" href="./md_order_status_inquiry.asp"> Order Status</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary" href="javascript: void(0)" id="quickPartsOrder"> QUICK PARTS ORDER</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary" href="javascript: void(0)" id="serviceStatus"> SERVICE STATUS</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary comingSoon" href="javascript: void(0)"> MARKETING</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega mobile-show" role="navigation">
+<div class="navbar-header">
+<button class="navbar-toggle hamburger hamburger-close navbar-toggle-left" data-toggle="menubar" id="mobileNavBtn" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="hamburger-bar"></span>
+</button>
+<button class="navbar-toggle collapsed cartPanelBtn" data-toggle="site-sidebar" data-url="./md_panel_cart.asp" type="button">
+<i aria-hidden="true" class="icon fa fa-shopping-cart monarch-blue-text"></i>
+<span class="badge badge-pill badge-danger up hidden" id="cartNmb">
+</span>
+</button>
+<button class="navbar-toggle collapsed" data-target="#site-navbar-collapse" data-toggle="collapse" type="button">
+<i aria-hidden="true" class="icon fa fa-search monarch-blue-text"></i>
+</button>
+<div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+<a href="">
+<img class="navbar-brand-logo nav-main-logo negative-margin-left-60" src="./images/Monarch_Direct_Logo.png" title="MONARCH DIRECT"/>
+</a>
+</div>
+</div>
+<div class="navbar-container">
+<div class="navbar-collapse navbar-collapse-toolbar navbar-fixed-top custom-toolbar">
+<div class="row" id="section-1">
+<div class="col-lg-12">
+<div class="mobile-show bg-white-custom">
+<div class="navbar-collapse navbar-fixed-top navbar-custom" id="navbar-collapse-2">
+<div class="row">
+<div class="col-lg-12">
+<div class="navbar-container">
+<div class="collapse navbar-collapse navbar-collapse-toolbar custom-toolbar" id="site-navbar-collapse">
+<select class="select2item form-control dropdown-toggle singal" placeholder="Search Item#" style="width: 100%">
+<i aria-hidden="true" class="icon wb-search"></i>
+</select>
+<div id="infodetail">
+</div>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav nav-custom">
+<!-- Media Example -->
+<li class="">
+<a href="directimport\"><span class="">DIRECT IMPORT UPHOLSTERY</span></a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=ACCENTS">
+<span class="">ACCENTS</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=BAR">
+<span class="">BAR</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=BEDROOM">
+<span class="">BEDROOM</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=DINING">
+<span class="">DINING</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=ENTERTAINMENT">
+<span class="">ENTERTAINMENT</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=HOME DECOR">
+<span class="">HOME DECOR</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=LIVING ROOM">
+<span class="">LIVING ROOM</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=OFFICE">
+<span class="">OFFICE</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=TABLES">
+<span class="">TABLES</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=YOUTH">
+<span class="">YOUTH</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<!--mobile menu-->
+<div class="site-menubar collapse-menu mt5" id="main-navigation">
+<div class="site-menubar-body">
+<div>
+<div>
+<div class="row">
+<div class="col-lg-12">
+<div class="left-menu-header">
+<span class="monarch-blue-text text-uppercase text-center mt25 mobile-menu-text">M5143</span>
+</div>
+</div>
+</div>
+<ul class="site-menu text-uppercase">
+<li class="site-menu-item has-sub">
+<a href="./md_accountprofile.asp">
+<span class="site-menu-title">ACCOUNT PROFILE</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a class="quickOrder" href="javascript: void(0)">
+<span class="site-menu-title">QUICK ORDER / CHECK INVENTORY</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a href="./md_order_status_inquiry.asp">
+<span class="site-menu-title"> Order Status</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a href="javascript: void(0)" onclick="quickPartsOrderMbClick()">
+<span class="site-menu-title">QUICK PARTS ORDER</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a href="javascript: void(0)" onclick="serviceStatusMbClick()">
+<span class="site-menu-title">SERVICE STATUS</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a class="comingSoon" href="javascript: void(0)">
+<span class="site-menu-title">MARKETING</span>
+</a>
+</li>
+<hr/>
+<li class="site-menu-item has-sub">
+<a class="bt btn-info btn-block font-size-14" href="_pages_md_login.asp?action=logout&amp;token=&lt;/a&gt;">
+<span class="fa fa-sign-out text-white"></span>
+<span class="site-menu-title text-white text-uppercase">Logout</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white container-fluid">
+<!-- Content -->
+<div class="mobile-margin-top">
+<div class="row row-lg margin-left-5 margin-top-0 margin-right-5">
+<div class="row row-lg">
+<div class="col-md-4">
+<a class="inline-block" data-main-class="mfp-img-mobile" data-plugin="magnificPopup" href="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000//I_8105.jpg?q=10/15/2020 3:03:40 PM">
+<img alt="I 8105" src="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000/I_8105.jpg?q=10/15/2020 3:03:40 PM" width="100%">
+</img></a>
+</div><!--col-lg-4-->
+<div class="col-lg-8" style="margin-left:-20px;">
+<div class="row row-lg">
+<div class="col-lg-6 item-description">
+<div class="media-body">
+<h4 class="media-heading">JUVENILE CHAIR - 2 PCS SET / RED LEATHER-LOOK FABRIC</h4>
+<p class="fs20">SKU: I 8105</p>
+<p>DEPARTMENT: YOUTH</p>
+</div><!--media-body-->
+<div class="row no-space">
+<div class="col-lg-4" style="margin-top:5px;">
+								PRICE: <span class="primary-600 fw600">$72.00 CAD </span>
+</div>
+<label class="col-lg-3 control-label text-right" style="margin-top:8px;">QUANTITY: </label>
+<div class="input-group">
+<input class="form-control col-md-2 quantity" id="quantity_1" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8105"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<p style="margin-top:5px;">INVENTORY STATUS :
+							
+								<span class="green-800 fw600 text-uppercase">In Stock</span>
+</p>
+</div><!--col-6-->
+<div class="col-lg-6">
+<div class="slider" id="ProductImgAutoPlay" style="margin-left:-20px;">
+<div class="image"><a class="inline-block" data-main-class="mfp-img-mobile" data-plugin="magnificPopup" href="http://www.monarchspec.com/PRODUCT_PHOTOS/LINEART_DRAWING/I_8105.jpg?q=10/15/2020 3:03:42 PM"><img "="" alt="AI" src="http://www.monarchspec.com/PRODUCT_PHOTOS/LINEART_DRAWING/I_8105.jpg?q=10/15/2020 3:03:42 PM"/></a></div><div class="image"><a class="inline-block" data-main-class="mfp-img-mobile" data-plugin="magnificPopup" href="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000//I_8105!S1.jpg?q=10/15/2020 3:03:42 PM"><img alt="I 8105!S1" class="img-responsive" src="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000/I_8105!S1.jpg?q=10/15/2020 3:03:42 PM"/></a></div><div class="image"><a class="inline-block" data-main-class="mfp-img-mobile" data-plugin="magnificPopup" href="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000//I_8105!F1.jpg?q=10/15/2020 3:03:42 PM"><img alt="I 8105!F1" class="img-responsive" src="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000/I_8105!F1.jpg?q=10/15/2020 3:03:42 PM"/></a></div>
+</div><!--slider-->
+</div><!--col-6-->
+</div><!--row-->
+<div class="row row-lg" style="margin-top:-20px;">
+<div class="col-lg-12">
+<div class="media-body">
+<p>Mimic your adult-like furniture with this leather-look kids lounge chair and ottoman put together in the smoothest red faux leather material that can be easily cleaned. Bringing a good dose of style to your living space, this mini sofa set includes a comfortable curved back accent chair with a matching footrest. A good fit in the living room, bedroom or games room for the kids, this chair will quickly become your child’s new favorite spot. Let them put their feet up and relax! </p>
+</div><!--media-body-->
+</div><!--col-10-->
+</div><!--row-->
+<div class="row row-lg">
+<div class="col-lg-9">
+<div class="media-body">
+<ul>
+<li>Perfectly-sized kid's lounge chair and ottoman for the bedroom, playroom or living room</li><li>Comfortable kid's chair with strong and sturdy base</li><li>The ideal kid's ottoman and chair upholstered in a red, easy-to-clean leather-look fabric</li><li>Great lounge chair that pairs with any existing decor in your small home, apartment or condo</li><li>Product Dimensions: 20 Inch L x 18.5 Inch D x 18 Inch H (chair); 13 Inch L x 12 Inch W x 8 Inch H (ottoman)</li>
+</ul>
+</div><!--media-body-->
+</div><!--col-10-->
+<div class="col-md-3">
+<button class="btn btn-primary btn-raised" id="emailpdf" style="width:100%;"><i aria-hidden="true" class="fa fa-envelope-o fs16"></i> PRODUCT INFO PDF</button>
+<span class="height-50"> </span>
+<a data-toggle="slidePanel" data-url="panel_assemblepdf.asp?SrcSysItemNo=I 8105" href="javascript:void(0)" id="slidePanel_assemblesheetno"><button class="btn btn-primary btn-raised" style="width:100%;"><i aria-hidden="true" class="fa fa-file-pdf-o fs16"></i> ASSEMBLY INSTRUCTIONS</button></a>
+</div><!--col-2-->
+</div><!--row-->
+</div><!--col-lg-8-->
+</div>
+<br/>
+<div class="row row-lg">
+<div class="col-lg-12">
+<div class="row row-lg">
+<div class="col-lg-12">
+<div class="media-body">
+<h4 class="media-heading"><button class="btn btn-md btn-danger disabed width-250">FAMILY</button></h4>
+<ul class="blocks blocks-6 blocks-xlg-6 blocks-md-6 blocks-sm-3 blocks-xs-2" data-child="&gt;li" data-plugin="animateList">
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8103</span><span class="pull-right fs12">JUVENILE CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">2 PCS SET / DARK BROWN LEATHERLOOK </div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$72.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_2" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8103"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="red-800 fw600 text-uppercase"></span>
+<span class="red-800 fw600 text-uppercase">Out Of Stock  ETA 2020-10-19</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8103.jpg?q=10/15/2020 3:03:49 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8103"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8104</span><span class="pull-right fs12">JUVENILE CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">2 PCS SET / WHITE LEATHERLOOK FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$72.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_3" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8104"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8104.jpg?q=10/15/2020 3:03:51 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8104"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8105</span><span class="pull-right fs12">JUVENILE CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">2 PCS SET / RED LEATHERLOOK FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$72.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_4" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8105"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8105.jpg?q=10/15/2020 3:03:51 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8105"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8108</span><span class="pull-right fs12">JUVENILE CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">2 PCS SET / GREY LEATHERLOOK</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$72.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_5" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8108"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="red-800 fw600 text-uppercase"></span>
+<span class="red-800 fw600 text-uppercase">Out Of Stock  ETA 2020-11-14</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8108.jpg?q=10/15/2020 3:03:53 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8108"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8109</span><span class="pull-right fs12">JUVENILE CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">2 PCS SET / CHARCOAL GREY LEATHERLOOK</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$72.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_6" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8109"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8109.jpg?q=10/15/2020 3:03:57 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8109"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+</ul>
+</div>
+</div><!--col-lg-12-->
+</div> <!--row-->
+<!--Family Group: END -->
+<!--Related Product: Start-->
+<div class="row row-lg">
+<div class="col-lg-12">
+<div class="media-body">
+<h4 class="media-heading"><button class="btn btn-md btn-danger disabed width-250">RELATED PRODUCTS: RED</button></h4>
+<ul class="blocks blocks-6 blocks-xlg-6 blocks-md-6 blocks-sm-3 blocks-xs-2" data-child="&gt;li" data-plugin="animateList">
+<li>
+<div class="panel">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8164</span><span class="pull-right fs12">OTTOMAN</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">2PCS SET / JUVENILE / RED LEATHERLOOK</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$40.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_7" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8164"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8164.jpg?q=10/15/2020 3:04:02 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8164"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+</ul>
+</div>
+</div><!--col-lg-12-->
+</div> <!--row-->
+<!-- Related Product-->
+<!--MIS-->
+<div class="row row-lg">
+<div class="col-lg-12">
+<div class="media-body">
+<h4 class="media-heading"><button class="btn btn-md btn-danger disabed width-250">MASTER ITEM SPECIFICATION</button></h4>
+<div class="col-md-12" style="margin-left:-30px;">
+<div class="col-md-4 form-horizontal">
+<table class="table footable table-bordered table-hover toggle-circle" data-row-selectable="false">
+<tr>
+<td class="width-200"><span class="fw600">ASSEMBLY REQUIRED:</span> YES</td>
+<tr>
+<td class="width-200"><span class="fw600">ASSEMBLY TIME:</span> 20</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX (SHIPPING CARTONS QTY):</span> 1</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - CUBE:</span> 3.77</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - DEPTH / WIDTH:</span> 19</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - HEIGHT:</span> 17.5</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - LENGTH:</span> 21</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - WEIGHT / LBS:</span> 22</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 HS NUMBER:</span> 9401.61.40.11</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 UPC CODE:</span> 021032259242</td>
+<tr>
+<td class="width-200"><span class="fw600">COUNTRY OF PRIMARY WOOD MILL:</span> CHINA</td>
+<tr>
+<td class="width-200"><span class="fw600">DEPARTMENT - 1:</span> YOUTH</td>
+<tr>
+<td class="width-200"><span class="fw600">DEPARTMENT - 2:</span> ACCENTS</td>
+<tr>
+<td class="width-200"><span class="fw600">FINISH - PRIMARY:</span> RED</td>
+<tr>
+<td class="width-200"><span class="fw600">FINISH - SECONDARY:</span> BLACK</td>
+<tr>
+<td class="width-200"><span class="fw600">FINISH ATTRIBUTES:</span> FAUX LEATHER</td>
+<tr>
+<td class="width-200"><span class="fw600">FINISHED ON ALL SIDES:</span> YES</td>
+<tr>
+<td class="width-200"><span class="fw600">FOAM DENSITY:</span> 24</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD COLOR:</span> RED</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD MATERIAL - FINISH:</span> LEATHER-LOOK FABRIC</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD USAGE:</span> ACCENT CHAIR</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD USAGE 2:</span> KIDS CHAIR</td>
+</tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></table>
+</div><!--form-horizontal-->
+<div class="col-md-4 form-horizontal">
+<table class="table footable table-bordered table-hover toggle-circle" data-row-selectable="false">
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD USAGE 3:</span> LOUNGE CHAIR</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD USAGE 4:</span> KID OTTOMAN CHAIR</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD USAGE 5:</span> MINI SOFA</td>
+<tr>
+<td class="width-200"><span class="fw600">LEG - DEPTH / WIDTH:</span> 1.5</td>
+<tr>
+<td class="width-200"><span class="fw600">LEG - HEIGHT:</span> 1.5</td>
+<tr>
+<td class="width-200"><span class="fw600">LEG - LENGTH:</span> 1.5</td>
+<tr>
+<td class="width-200"><span class="fw600">LEGS - INCLUDED (QTY):</span> 8</td>
+<tr>
+<td class="width-200"><span class="fw600">MATERIAL - 1:</span> FOAM</td>
+<tr>
+<td class="width-200"><span class="fw600">MATERIAL - 2:</span> SOLID WOOD</td>
+<tr>
+<td class="width-200"><span class="fw600">MATERIAL COLOR:</span> RED</td>
+<tr>
+<td class="width-200"><span class="fw600">MATERIAL CONTENT (%) POLYESTER:</span> 100</td>
+<tr>
+<td class="width-200"><span class="fw600">PACKAGING MATERIAL WEIGHT:</span> 3</td>
+<tr>
+<td class="width-200"><span class="fw600">PATTERN:</span> SOLID</td>
+<tr>
+<td class="width-200"><span class="fw600">PIECES IN SET:</span> 2PCS SET</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT - DEPTH / WIDTH:</span> 18.5</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT - HEIGHT:</span> 18</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT - LENGTH:</span> 20</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT - WEIGHT / LBS:</span> 13.5</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT 2 - DEPTH / WIDTH:</span> 12</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT 2 - HEIGHT:</span> 8.25</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT 2 - LENGTH:</span> 13</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT 2 - WEIGHT / LBS:</span> 5.5</td>
+</tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></table>
+</div><!--form-horizontal-->
+<div class="col-md-4 form-horizontal">
+<table class="table footable table-bordered table-hover toggle-circle" data-row-selectable="false">
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT TYPE:</span> ACCENT CHAIR</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT - DEPTH:</span> 14</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT - WIDTH:</span> 11.75</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT 2 - DEPTH:</span> 11.75</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT 2 - WIDTH:</span> 13</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT ARM - DEPTH / WIDTH:</span> 19</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT ARM - HEIGHT:</span> 11</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT ARM - LENGTH:</span> 3</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT BACK - DEPTH / WIDTH:</span> 3</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT BACK - HEIGHT:</span> 11</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT BACK - WIDTH:</span> 14.5</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT CUSHION THICKNESS:</span> 2</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT HEIGHT FROM FLOOR:</span> 9</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT HEIGHT FROM FLOOR 2:</span> 7.75</td>
+<tr>
+<td class="width-200"><span class="fw600">STYLE:</span> CONTEMPORARY</td>
+<tr>
+<td class="width-200"><span class="fw600">UPHOLSTERY:</span> LEATHER-LOOK</td>
+<tr>
+<td class="width-200"><span class="fw600">WEIGHT CAPACITY:</span> 145</td>
+<tr>
+<td class="width-200"><span class="fw600">WEIGHT CAPACITY 2:</span> 55</td>
+<tr>
+<td class="width-200"><span class="fw600">WOOD PERCENTAGE (%):</span> 30</td>
+<tr>
+<td class="width-200"><span class="fw600">WOOD SPECIES PRIMARY:</span> RUBBERWOOD</td>
+<tr>
+<td class="width-200"><span class="fw600"> </span></td>
+<tr>
+<td class="width-200"><span class="fw600"> </span></td>
+</tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></table>
+</div><!--form-horizontal-->
+</div>
+<!--Features_numRows-->
+<!--if not rsmis.EOF-->
+</div>
+</div><!--col-lg-12-->
+</div>
+<!--MIS end-->
+</div><!--content-->
+</div>
+</div>
+</div><!--page-->
+</div>
+<div class="white-popup-block mfp-hide" id="email-modal">
+<div class="row">
+<div class="col-lg-12">
+<h3 class="text-uppercase">EMAIL PRODUCT INFO PDF</h3>
+<br/>
+</div>
+<div class="col-lg-12">
+<p>Please enter an email address below to send the Product Info pdf </p>
+<div>
+<input class="form-control" id="emailList" name="emailList" placeholder="abc@gmail.com" type="text" value="">
+<div class="alert alert-danger text-uppercase" id="invalidEmailMessage" style="display:none">
+					Invalid Email Address.
+					</div>
+</input></div>
+<br/>
+</div>
+<div class="col-lg-12">
+<a class="btn btn-success modal-dismiss text-uppercase margin-left-10" href="#" id="">CANCEL</a>
+<a class="btn btn-danger text-uppercase" href="#" id="sendEmail">SEND</a>
+</div>
+</div>
+
+</div>
+<a id="backTop">Back To Top</a>
+<!-- Core  -->
+<script src="./_assets/vendor/jquery/jquery.js"></script>
+<script src="./_assets/vendor/bootstrap/bootstrap.js"></script>
+<script src="./_assets/vendor/animsition/jquery.animsition.js"></script>
+<script src="./_assets/vendor/asscroll/jquery-asScroll.js"></script>
+<script src="./_assets/vendor/mousewheel/jquery.mousewheel.js"></script>
+<script src="./_assets/vendor/asscrollable/jquery.asScrollable.all.js"></script>
+<script src="./_assets/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
+<!-- Plugins -->
+<script src="./_assets/vendor/switchery/switchery.min.js"></script>
+<script src="./_assets/vendor/intro-js/intro.js"></script>
+<script src="./_assets/vendor/screenfull/screenfull.js"></script>
+<script src="./_assets/vendor/slidepanel/jquery-slidePanel.js"></script>
+<script src="./_assets/vendor/bootbox/bootbox.js"></script>
+<script src="./_assets/vendor/bootstrap-sweetalert/sweet-alert.js"></script>
+<script src="./_assets/vendor/toastr/toastr.js"></script>
+<script src="./_assets/vendor/jquery-floatthead/jquery.floatThead.js"></script>
+<!-- Scripts -->
+<script src="./_assets/js/core.js"></script>
+<script src="./_assets/js/site.js"></script>
+<script src="./_assets/js/sections/menu.js"></script>
+<script src="./_assets/js/sections/menubar.js"></script>
+<script src="./_assets/js/sections/gridmenu.js"></script>
+<script src="./_assets/js/sections/sidebar.js"></script>
+<script src="./_assets/js/configs/config-colors.js"></script>
+<script src="./_assets/js/configs/config-tour.js"></script>
+<script src="./_assets/js/components/asscrollable.js"></script>
+<script src="./_assets/js/components/animsition.js"></script>
+<script src="./_assets/js/components/slidepanel.js"></script>
+<script src="./_assets/js/components/switchery.js"></script>
+<script src="./_assets/js/components/jquery-placeholder.js"></script>
+<script src="./_assets/js/components/input-group-file.js"></script>
+<script src="./_assets/js/components/bootbox.js"></script>
+<script src="./_assets/js/components/bootstrap-sweetalert.js"></script>
+<script src="./_assets/js/components/toastr.js"></script>
+<script src="./_assets/js/components/jquery-floatthead.js"></script>
+<script src="./_assets/js/custom/jquery.backTop.min.js"></script>
+<script src="_assets/js/components/magnific-popup.js"></script>
+<font face="Arial" size="2">
+<p>Microsoft OLE DB Provider for SQL Server</p></font> <font face="Arial" size="2">error '80040e31'</font>
+<p>
+<font face="Arial" size="2">Query timeout expired</font>
+<p>
+<font face="Arial" size="2">/md_common.asp</font><font face="Arial" size="2">, line 31</font> </p></p></body></html>

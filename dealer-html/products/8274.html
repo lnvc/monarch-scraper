@@ -1,0 +1,2383 @@
+<!DOCTYPE html>
+
+<html class="no-js css-menubar" lang="en">
+<head>
+<meta charset="utf-8"/>
+<!--  <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<meta content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" name="viewport"/>
+<!--20190821 CC -->
+<meta content="no-cache" http-equiv="cache-control"/>
+<meta content="-1" http-equiv="expires"/>
+<meta content="no-cache" http-equiv="pragma"/>
+<title>Monarch Direct</title>
+<link href="./images/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="./images/favicon.ico" rel="shortcut icon"/>
+<!-- Stylesheets -->
+<link href="./_assets/css/bootstrap.css" rel="stylesheet"/>
+<link href="./_assets/css/bootstrap-extend.css" rel="stylesheet"/>
+<link href="./_assets/css/site.css" rel="stylesheet"/>
+<link href="./_assets/css/custom/theme.css" rel="stylesheet"/>
+<!-- Plugins -->
+<link href="./_assets/vendor/animsition/animsition.css" rel="stylesheet"/>
+<link href="./_assets/vendor/asscrollable/asScrollable.css" rel="stylesheet"/>
+<link href="./_assets/vendor/switchery/switchery.css" rel="stylesheet"/>
+<link href="./_assets/vendor/intro-js/introjs.css" rel="stylesheet"/>
+<link href="./_assets/vendor/slidepanel/slidePanel.css" rel="stylesheet"/>
+<link href="./_assets/vendor/flag-icon-css/flag-icon.css" rel="stylesheet"/>
+<link href="./_assets/vendor/bootstrap-sweetalert/sweet-alert.css" rel="stylesheet"/>
+<link href="./_assets/vendor/toastr/toastr.css" rel="stylesheet"/>
+<!-- version monarachdirect menu -->
+<link href="./_Custom_V3/css/md_menu.css?471231205474325" rel="stylesheet"/>
+<!-- version 3 monasia menu -->
+<!-- Fonts -->
+<link href="./_assets/fonts/glyphicons/glyphicons.css" rel="stylesheet"/>
+<!-- Glyphicons Pro CSS(font) -->
+<link href="./_assets/fonts/glyphicons-pro/glyphicons-pro.css" rel="stylesheet"/>
+<link href="./_assets/fonts/font-awesome/font-awesome.css" rel="stylesheet"/>
+<link href="./_assets/fonts/material-design/material-design.css" rel="stylesheet"/>
+<link href="./_assets/fonts/web-icons/web-icons.min.css" rel="stylesheet"/>
+<link href="./_assets/fonts/brand-icons/brand-icons.min.css" rel="stylesheet"/>
+<link href="http://fonts.googleapis.com/css?family=Droid+Sans:300,400,500,300italic" rel="stylesheet"/>
+<!-- <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>-->
+<link href="./_assets/fonts/flaticon/flaticon.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+    <script src="./_assets/html5shiv/html5shiv.min.js"></script>
+    <![endif]-->
+<!--[if lt IE 10]>
+    <script src="./_assets/media-match/media.match.min.js"></script>
+    <script src="./_assets/respond/respond.min.js"></script>
+    <![endif]-->
+<!-- Scripts -->
+<script src="./_assets/vendor/modernizr/modernizr.js"></script>
+<script src="./_assets/vendor/breakpoints/breakpoints.js"></script>
+<script>
+	  Breakpoints();
+  </script>
+<!-- Backtop -->
+<link href="./_assets/css/custom/backtop.css" rel="stylesheet"/>
+</meta></head>
+<link href="./_assets/vendor/flag-icon-css/flag-icon.css" rel="stylesheet"/>
+<link href="./_assets/vendor/typeahead-js/typeahead.css" rel="stylesheet"/>
+<link href="./_assets/vendor/jquery-selective/jquery-selective.css" rel="stylesheet"/>
+<link href="./_assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet"/>
+<link href="./_assets/examples/css/advanced/lightbox.css" rel="stylesheet"/>
+<link href="./_assets/vendor/bootstrap-select/bootstrap-select.css" rel="stylesheet"/>
+<link href="./_assets/vendor/bootstrap-datepicker/bootstrap-datepicker.css" rel="stylesheet"/>
+<link href="./_assets/vendor/multi-select/multi-select.css" rel="stylesheet"/>
+<link href="./_assets/vendor/select2/select2.css" rel="stylesheet"/>
+<link href="./_assets/vendor/icheck/icheck.css" rel="stylesheet"/>
+<link href="./_assets/vendor/asspinner/asSpinner.css" rel="stylesheet"/>
+<link href="./_assets/vendor/bootstrap-table/bootstrap-table.css" rel="stylesheet"/>
+<link href="./_assets/vendor/jquery-floatthead/jquery.floatThead.css" rel="stylesheet"/>
+<link href="./_assets/vendor/formvalidation/formValidation.css" rel="stylesheet"/>
+<link href="./_assets/examples/css/forms/validation.css" rel="stylesheet"/>
+<link href="./_assets/examples/css/apps/projects.css" rel="stylesheet"/>
+<link href="./images/favicon.ico" rel="icon"/>
+<!--<link rel="stylesheet" href="_assets/examples/css/forms/advanced.css">-->
+<link href="_assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet"/>
+<link href="_assets/examples/css/advanced/lightbox.css" rel="stylesheet"/>
+<link href="_assets/examples/css/uikit/buttons.css" rel="stylesheet"/>
+<!--Bootstrap table-->
+<link href="_assets/vendor/slick-carousel/slick.css" rel="stylesheet"/>
+<link href="_assets/examples/css/uikit/carousel.css" rel="stylesheet"/>
+<link href="./_assets/examples/css/apps/forum.css" rel="stylesheet"/>
+<style>
+.item-description ul {
+	margin-left: -22px;
+}
+
+.slider {
+	margin: 0 25px 0px;
+}
+
+.slidePanel-show {
+	z-index: 3000;
+}
+
+#email-modal label {
+	line-height: 35px;
+	vertical-align: middle;
+	padding-left: 0px;
+}
+
+#email-modal p {
+	height: 35px;
+	vertical-align: middle;
+	margin: 20px 0px 0px 0px;
+}
+
+#email-modal .alert {
+	padding: 5px 0px 0px 0px;
+	margin: 0px;
+	background-color: #ffffff;
+	border: 0px none;
+}
+
+.product-inquiry .panel {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.product-inquiry .blocks > li {
+  margin-bottom: 30px;
+}
+.product-inquiry .overlay {
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+.product-inquiry .overlay .btn-group {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.product-inquiry .overlay .btn-group-left {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  left:5px;
+}
+.product-inquiry .overlay .btn-icon {
+  color: #bdbdbd;
+}
+.product-inquiry .overlay .btn-icon:hover {
+  color: white;
+}
+.product-inquiry .overlay .project-button {
+  color: white;
+}
+.product-inquiry .overlay .project-button:hover {
+  color: #526069;
+  background-color: white;
+}
+.product-inquiry .overlay-panel {
+  background: rgba(38, 50, 56, .8);
+}
+
+
+.slick-initialized .slick-slide {
+    float: inherit;
+    display: inline-block !important;;
+    vertical-align: middle;
+}
+
+.inline-block img {
+	height: 100% !important;
+}
+.scrollable-content {
+	margin-top: 0px !important;
+}
+.slidePanel-right, .slidePanel-left {
+    top: 0px !important;
+}
+
+
+
+</style>
+<body class="product-inquiry">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please contact IT to upgrade your browser to improve your experience.</p>
+<![endif]-->
+<!-- Navbar Toolbar -->
+<!-- Navbar Toolbar -->
+<nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega bg-light mobile-hidden" role="navigation">
+<div class="navbar-header">
+<button class="navbar-toggle hamburger hamburger-close navbar-toggle-left" data-toggle="menubar" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="hamburger-bar"></span>
+</button>
+<div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+<a href="">
+<img class="navbar-brand-logo nav-main-logo" src="./images/Monarch_Direct_Logo.png" title="MONARCH DIRECT"/>
+</a>
+</div>
+</div>
+<div class="navbar-container container-fluid">
+<!-- Navbar Collapse -->
+<div class="collapse navbar-collapse navbar-collapse-toolbar">
+<!-- Navbar Toolbar -->
+<!-- End Navbar Toolbar -->
+<!-- Navbar Toolbar Right -->
+<ul class="nav navbar-toolbar navbar-right navbar-toolbar-right top-menu">
+<li class="dropdown singal-cartbox">
+<a aria-expanded="false" class="dropdown-toggle" data-animation="scale-up" data-toggle="dropdown" href="javascript:void(0)" role="button">
+<img src="images/monarchdirect_cart.png" width="30"/>
+<div class="singal-cartbox-text text-uppsercase" id="cartInfoTitle">0 ITEM
+								  | TOTAL $0.00
+					  
+				  </div>
+</a>
+<ul class="dropdown-menu" role="menu">
+<li role="presentation">
+<div data-role="container">
+<button class="btn btn-primary checkout-button" id="checkout" onclick="" style="display: none" type="button">VIEW ORDER</button>
+<div data-role="content" id="cartItems"></div>
+<div data-role="content" id="cartItemsempty">
+<div data-role="content">
+<div class="media">
+<div class="media-body padding-left-20">CART IS EMPTY!</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown selector-lg">
+<select class="select2item form-control dropdown-toggle singal" placeholder="Search Item#" style="width: 100%">
+<i aria-hidden="true" class="icon wb-search"></i>
+</select>
+<div id="infodetail">
+</div>
+</li>
+<li class="dropdown">
+<a href="_pages_md_login.asp?action=logout&amp;token="> <button class="btn btn-primary dropdown-toggle singal logout-btn" type="button"><span class="fa fa-power-off"></span> Logout M5143</button> </a>
+</li>
+</ul>
+<!-- End Navbar Toolbar Right -->
+</div>
+</div>
+<div class="bg-white-custom">
+<div class="container-fluid">
+<div class="monarch-second-menu">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 border-right border-left text-uppercase">
+<span class="monarch-anchor">
+<a href="directimport\"> DIRECT IMPORT UPHOLSTERY</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=ACCENTS"> ACCENTS</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=BAR"> BAR</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=BEDROOM"> BEDROOM</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=DINING"> DINING</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=ENTERTAINMENT"> ENTERTAINMENT</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=HOME DECOR"> HOME DECOR</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=LIVING ROOM"> LIVING ROOM</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=OFFICE"> OFFICE</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=TABLES"> TABLES</a>
+</span>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 border-right">
+<span class="monarch-anchor">
+<a href="md_productcategory_inquiry.asp?selwebcategory=YOUTH"> YOUTH</a>
+</span>
+</div>
+</div>
+<div class="row text-uppercase" id="second_menu">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary" href="./md_accountprofile.asp"> ACCOUNT PROFILE</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary quickOrder" href="javascript: void(0)"> QUICK ORDER / CHECK INVENTORY</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary" href="./md_order_status_inquiry.asp"> Order Status</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary" href="javascript: void(0)" id="quickPartsOrder"> QUICK PARTS ORDER</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary" href="javascript: void(0)" id="serviceStatus"> SERVICE STATUS</a>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding border-right second-menu-item">
+<a class="btn btn-squared btn-block btn-primary comingSoon" href="javascript: void(0)"> MARKETING</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega mobile-show" role="navigation">
+<div class="navbar-header">
+<button class="navbar-toggle hamburger hamburger-close navbar-toggle-left" data-toggle="menubar" id="mobileNavBtn" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="hamburger-bar"></span>
+</button>
+<button class="navbar-toggle collapsed cartPanelBtn" data-toggle="site-sidebar" data-url="./md_panel_cart.asp" type="button">
+<i aria-hidden="true" class="icon fa fa-shopping-cart monarch-blue-text"></i>
+<span class="badge badge-pill badge-danger up hidden" id="cartNmb">
+</span>
+</button>
+<button class="navbar-toggle collapsed" data-target="#site-navbar-collapse" data-toggle="collapse" type="button">
+<i aria-hidden="true" class="icon fa fa-search monarch-blue-text"></i>
+</button>
+<div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+<a href="">
+<img class="navbar-brand-logo nav-main-logo negative-margin-left-60" src="./images/Monarch_Direct_Logo.png" title="MONARCH DIRECT"/>
+</a>
+</div>
+</div>
+<div class="navbar-container">
+<div class="navbar-collapse navbar-collapse-toolbar navbar-fixed-top custom-toolbar">
+<div class="row" id="section-1">
+<div class="col-lg-12">
+<div class="mobile-show bg-white-custom">
+<div class="navbar-collapse navbar-fixed-top navbar-custom" id="navbar-collapse-2">
+<div class="row">
+<div class="col-lg-12">
+<div class="navbar-container">
+<div class="collapse navbar-collapse navbar-collapse-toolbar custom-toolbar" id="site-navbar-collapse">
+<select class="select2item form-control dropdown-toggle singal" placeholder="Search Item#" style="width: 100%">
+<i aria-hidden="true" class="icon wb-search"></i>
+</select>
+<div id="infodetail">
+</div>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav navbar-nav nav-custom">
+<!-- Media Example -->
+<li class="">
+<a href="directimport\"><span class="">DIRECT IMPORT UPHOLSTERY</span></a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=ACCENTS">
+<span class="">ACCENTS</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=BAR">
+<span class="">BAR</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=BEDROOM">
+<span class="">BEDROOM</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=DINING">
+<span class="">DINING</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=ENTERTAINMENT">
+<span class="">ENTERTAINMENT</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=HOME DECOR">
+<span class="">HOME DECOR</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=LIVING ROOM">
+<span class="">LIVING ROOM</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=OFFICE">
+<span class="">OFFICE</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=TABLES">
+<span class="">TABLES</span>
+</a>
+</li>
+<li class="">
+<a href="md_productcategory_inquiry.asp?selwebcategory=YOUTH">
+<span class="">YOUTH</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<!--mobile menu-->
+<div class="site-menubar collapse-menu mt5" id="main-navigation">
+<div class="site-menubar-body">
+<div>
+<div>
+<div class="row">
+<div class="col-lg-12">
+<div class="left-menu-header">
+<span class="monarch-blue-text text-uppercase text-center mt25 mobile-menu-text">M5143</span>
+</div>
+</div>
+</div>
+<ul class="site-menu text-uppercase">
+<li class="site-menu-item has-sub">
+<a href="./md_accountprofile.asp">
+<span class="site-menu-title">ACCOUNT PROFILE</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a class="quickOrder" href="javascript: void(0)">
+<span class="site-menu-title">QUICK ORDER / CHECK INVENTORY</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a href="./md_order_status_inquiry.asp">
+<span class="site-menu-title"> Order Status</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a href="javascript: void(0)" onclick="quickPartsOrderMbClick()">
+<span class="site-menu-title">QUICK PARTS ORDER</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a href="javascript: void(0)" onclick="serviceStatusMbClick()">
+<span class="site-menu-title">SERVICE STATUS</span>
+</a>
+</li>
+<li class="site-menu-item has-sub">
+<a class="comingSoon" href="javascript: void(0)">
+<span class="site-menu-title">MARKETING</span>
+</a>
+</li>
+<hr/>
+<li class="site-menu-item has-sub">
+<a class="bt btn-info btn-block font-size-14" href="_pages_md_login.asp?action=logout&amp;token=&lt;/a&gt;">
+<span class="fa fa-sign-out text-white"></span>
+<span class="site-menu-title text-white text-uppercase">Logout</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white container-fluid">
+<!-- Content -->
+<div class="mobile-margin-top">
+<div class="row row-lg margin-left-5 margin-top-0 margin-right-5">
+<div class="row row-lg">
+<div class="col-md-4">
+<a class="inline-block" data-main-class="mfp-img-mobile" data-plugin="magnificPopup" href="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000//I_8274.jpg?q=10/15/2020 1:05:23 PM">
+<img alt="I 8274" src="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000/I_8274.jpg?q=10/15/2020 1:05:23 PM" width="100%">
+</img></a>
+</div><!--col-lg-4-->
+<div class="col-lg-8" style="margin-left:-20px;">
+<div class="row row-lg">
+<div class="col-lg-6 item-description">
+<div class="media-body">
+<h4 class="media-heading">ACCENT CHAIR - LIGHT BLUE FABRIC / NATURAL WOOD LEGS</h4>
+<p class="fs20">SKU: I 8274</p>
+<p>DEPARTMENT: ACCENTS,LIVING ROOM</p>
+</div><!--media-body-->
+<div class="row no-space">
+<div class="col-lg-4" style="margin-top:5px;">
+								PRICE: <span class="primary-600 fw600">$70.00 CAD </span>
+</div>
+<label class="col-lg-3 control-label text-right" style="margin-top:8px;">QUANTITY: </label>
+<div class="input-group">
+<input class="form-control col-md-2 quantity" id="quantity_1" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8274"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<p style="margin-top:5px;">INVENTORY STATUS :
+							
+								<span class="green-800 fw600 text-uppercase">In Stock</span>
+</p>
+</div><!--col-6-->
+<div class="col-lg-6">
+<div class="slider" id="ProductImgAutoPlay" style="margin-left:-20px;">
+<div class="image"><a class="inline-block" data-main-class="mfp-img-mobile" data-plugin="magnificPopup" href="http://www.monarchspec.com/PRODUCT_PHOTOS/LINEART_DRAWING/I_8274.jpg?q=10/15/2020 1:05:23 PM"><img "="" alt="AI" src="http://www.monarchspec.com/PRODUCT_PHOTOS/LINEART_DRAWING/I_8274.jpg?q=10/15/2020 1:05:23 PM"/></a></div><div class="image"><a class="inline-block" data-main-class="mfp-img-mobile" data-plugin="magnificPopup" href="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000//I_8274!F1.jpg?q=10/15/2020 1:05:23 PM"><img alt="I 8274!F1" class="img-responsive" src="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000/I_8274!F1.jpg?q=10/15/2020 1:05:23 PM"/></a></div><div class="image"><a class="inline-block" data-main-class="mfp-img-mobile" data-plugin="magnificPopup" href="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000//I_8274!S1.jpg?q=10/15/2020 1:05:23 PM"><img alt="I 8274!S1" class="img-responsive" src="http://www.monarchspec.com/PRODUCT_PHOTOS/LIFESTYLE_2000x2000/I_8274!S1.jpg?q=10/15/2020 1:05:23 PM"/></a></div>
+</div><!--slider-->
+</div><!--col-6-->
+</div><!--row-->
+<div class="row row-lg" style="margin-top:-20px;">
+<div class="col-lg-12">
+<div class="media-body">
+<p>Add sophistication to any room with this armless accent chair featuring solid wood legs in a natural finish. Combining clean contemporary lines and retro style, this versatile chair will add flair to any living room or bedroom. Upholstered in a light blue linen-look fabric for maximum comfort.</p>
+</div><!--media-body-->
+</div><!--col-10-->
+</div><!--row-->
+<div class="row row-lg">
+<div class="col-lg-9">
+<div class="media-body">
+<ul>
+<li>Upholstered armless accent chair in a light blue linen-look fabric</li><li>Solid wood legs and frame for stability and durability</li><li>Assembly is required; all parts are located underneath the seat cushion</li><li>Product dimensions: 22.75 inches L x 27.5 inches W x 31.5 inches H</li>
+</ul>
+</div><!--media-body-->
+</div><!--col-10-->
+<div class="col-md-3">
+<button class="btn btn-primary btn-raised" id="emailpdf" style="width:100%;"><i aria-hidden="true" class="fa fa-envelope-o fs16"></i> PRODUCT INFO PDF</button>
+<span class="height-50"> </span>
+<a data-toggle="slidePanel" data-url="panel_assemblepdf.asp?SrcSysItemNo=I 8274" href="javascript:void(0)" id="slidePanel_assemblesheetno"><button class="btn btn-primary btn-raised" style="width:100%;"><i aria-hidden="true" class="fa fa-file-pdf-o fs16"></i> ASSEMBLY INSTRUCTIONS</button></a>
+</div><!--col-2-->
+</div><!--row-->
+</div><!--col-lg-8-->
+</div>
+<br/>
+<div class="row row-lg">
+<div class="col-lg-12">
+<div class="row row-lg">
+<div class="col-lg-12">
+<div class="media-body">
+<h4 class="media-heading"><button class="btn btn-md btn-danger disabed width-250">FAMILY</button></h4>
+<ul class="blocks blocks-6 blocks-xlg-6 blocks-md-6 blocks-sm-3 blocks-xs-2" data-child="&gt;li" data-plugin="animateList">
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8272</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">TAUPE FABRIC / NATURAL WOOD LEGS</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_2" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8272"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8272.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8272"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8273</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT GREY FABRIC / NATURAL WOOD LEGS</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_3" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8273"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8273.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8273"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8274</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT BLUE FABRIC / NATURAL WOOD LEGS</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_4" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8274"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8274.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8274"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8275</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">DARK BROWN FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_5" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8275"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8275.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8275"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8276</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT GREY FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_6" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8276"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8276.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8276"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8277</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">BEIGE FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_7" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8277"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8277.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8277"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8279</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">TEAL FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_8" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8279"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8279.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8279"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8280</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">BLUE FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_9" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8280"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="red-800 fw600 text-uppercase"></span>
+<span class="red-800 fw600 text-uppercase">Out Of Stock  ETA 2020-10-23</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8280.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8280"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8281</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIME GREEN FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_10" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8281"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8281.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8281"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8283</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">DARK GREY FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_11" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8283"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8283.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8283"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8284</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">DARK BROWN LEATHERLOOK FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_12" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8284"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8284.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8284"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8285</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">CHARCOAL GREY LEATHERLOOK FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_13" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8285"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8285.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8285"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8286</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">VINTAGE FRENCH FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_14" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8286"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="red-800 fw600 text-uppercase"></span>
+<span class="red-800 fw600 text-uppercase">Out Of Stock  ETA 2020-10-19</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8286.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8286"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8287</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT / DARK TAUPE ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_15" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8287"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8287.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8287"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8288</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT BLUE / GREY ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_16" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8288"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8288.jpg?q=10/15/2020 1:05:24 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8288"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8289</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT / DARK GREEN ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_17" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8289"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8289.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8289"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8290</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">GOLD / GREY ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_18" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8290"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8290.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8290"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8291</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT GREY / BLACK ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_19" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8291"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8291.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8291"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8292</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT / DARK BLUE ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_20" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8292"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8292.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8292"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8293</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT / DARK BROWN ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_21" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8293"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8293.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8293"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8294</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT GREEN FABRIC / NATURAL WOOD LEGS</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_22" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8294"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8294.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8294"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8295</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">RED FABRIC / NATURAL WOOD LEGS</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_23" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8295"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8295.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8295"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8296</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">BLUE FABRIC / NATURAL WOOD LEGS</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_24" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8296"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8296.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8296"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8297</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">BLACK FABRIC / NATURAL WOOD LEGS</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_25" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8297"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8297.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8297"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8299</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">GREY LEATHERLOOK FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_26" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8299"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="red-800 fw600 text-uppercase"></span>
+<span class="red-800 fw600 text-uppercase">Out Of Stock  ETA 2020-11-14</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8299.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8299"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+</ul>
+</div>
+</div><!--col-lg-12-->
+</div> <!--row-->
+<!--Family Group: END -->
+<!--Related Product: Start-->
+<div class="row row-lg">
+<div class="col-lg-12">
+<div class="media-body">
+<h4 class="media-heading"><button class="btn btn-md btn-danger disabed width-250">RELATED PRODUCTS: BLUE</button></h4>
+<ul class="blocks blocks-6 blocks-xlg-6 blocks-md-6 blocks-sm-3 blocks-xs-2" data-child="&gt;li" data-plugin="animateList">
+<li>
+<div class="panel">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8254</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">DARK BLUE MOSAIC VELVET</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$185.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_27" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8254"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8254.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8254"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="panel">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8280</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">BLUE FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$73.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_28" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8280"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="red-800 fw600 text-uppercase"></span>
+<span class="red-800 fw600 text-uppercase">Out Of Stock  ETA 2020-10-23</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8280.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8280"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="panel">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8288</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT BLUE / GREY ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_29" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8288"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8288.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8288"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="panel">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8292</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT / DARK BLUE ABSTRACT DOT FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$75.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_30" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8292"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8292.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8292"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="panel">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8296</span><span class="pull-right fs12">ACCENT CHAIR</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">BLUE FABRIC / NATURAL WOOD LEGS</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$70.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_31" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8296"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8296.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8296"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+<li>
+<div class="panel">
+<div class="row no-space">
+<div class="col-lg-12 text-bottom"><span class="fw600">SKU: I 8897</span><span class="pull-right fs12">OTTOMAN</span></div>
+<div class="col-lg-12 fs12 mb5 text-nowrap">LIGHT BLUE LINENLOOK FABRIC</div>
+<div class="col-md-4 mt5" style="border:0px solid;">
+<span class="primary-600 fw600">$46.00</span>
+</div>
+<div class="col-md-8" style="border:0px solid;">
+<div class="input-group">
+<input class="form-control col-md-2 text-middle m0 p0 quantity" id="quantity_32" placeholder="Enter Qty..." type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-primary cartButton" id="" type="button" value="I 8897"><i aria-hidden="true" class="fa fa-cart-plus fs14"></i> ADD</button>
+</span>
+</div>
+</div>
+<div class="col-lg-12 mt5">
+<span class="green-800 fw600 text-uppercase">In Stock</span>
+</div>
+</div>
+<figure class="overlay overlay-hover animation-hover">
+<img class="caption-figure" src="http://www.monarchspec.info/apps/images/lifestyle_164x118//I_8897.jpg?q=10/15/2020 1:05:25 PM"/>
+<figcaption class="overlay-panel overlay-background overlay-fade text-center vertical-align">
+<button class="btn btn-outline btn-default project-button" onclick='location.href="/md_product_inquiry.asp?do_filter=1&amp;filter_itemno=I 8897"' type="button"><i aria-hidden="true" class="icon wb-eye"></i></button>
+</figcaption>
+</figure>
+</div>
+</li>
+</ul>
+</div>
+</div><!--col-lg-12-->
+</div> <!--row-->
+<!-- Related Product-->
+<!--MIS-->
+<div class="row row-lg">
+<div class="col-lg-12">
+<div class="media-body">
+<h4 class="media-heading"><button class="btn btn-md btn-danger disabed width-250">MASTER ITEM SPECIFICATION</button></h4>
+<div class="col-md-12" style="margin-left:-30px;">
+<div class="col-md-4 form-horizontal">
+<table class="table footable table-bordered table-hover toggle-circle" data-row-selectable="false">
+<tr>
+<td class="width-200"><span class="fw600">ASSEMBLY REQUIRED:</span> YES</td>
+<tr>
+<td class="width-200"><span class="fw600">ASSEMBLY TIME:</span> 20</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX (SHIPPING CARTONS QTY):</span> 1</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - CUBE:</span> 3.06</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - DEPTH / WIDTH:</span> 21</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - HEIGHT:</span> 12</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - LENGTH:</span> 25</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 - WEIGHT / LBS:</span> 22</td>
+<tr>
+<td class="width-200"><span class="fw600">BOX 1 UPC CODE:</span> 680796044848</td>
+<tr>
+<td class="width-200"><span class="fw600">CONTAINER QTY:</span> 768</td>
+<tr>
+<td class="width-200"><span class="fw600">COUNTRY OF PRIMARY WOOD MILL:</span> CHINA</td>
+<tr>
+<td class="width-200"><span class="fw600">DEPARTMENT - 1:</span> ACCENTS</td>
+<tr>
+<td class="width-200"><span class="fw600">DEPARTMENT - 2:</span> LIVING ROOM</td>
+<tr>
+<td class="width-200"><span class="fw600">FABRIC PATTERN:</span> K11</td>
+<tr>
+<td class="width-200"><span class="fw600">FABRIC USAGE (METERS):</span> 1.3</td>
+<tr>
+<td class="width-200"><span class="fw600">FINISH - PRIMARY:</span> BLUE</td>
+<tr>
+<td class="width-200"><span class="fw600">FINISHED ON ALL SIDES:</span> YES</td>
+<tr>
+<td class="width-200"><span class="fw600">FOAM DENSITY:</span> 24</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD BACK END SET 1:</span> ARMLESS BENTWOOD UPHOLSTERED DECORATIVE LIVING ROOM BEDROOM MID CENTURY MODERN ACCENT CHAIR DARK BROWN SOLID WOOD WALNUT LEG LEATHER LOOK SLIPPPER LEGS LEATHER GRAY GEOMETRIC FABRIC TRADITIONAL BEIGE LOUNGE SOFA</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD BACK END SET 1 2:</span> GREEN METAL CHROME CHEVRON TAUPE FLORAL VINTAGE FRENCH GREY TEAL BLUE ABSTRACT DOT GOLD RED BLACK COVER SET OF 2 SLIPCOVER SLIPCOVERS DANI CURVED STRETCH COVERS FOR GIANTEX DECO SOLIDS CONTEMPORARY</td>
+</tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></table>
+</div><!--form-horizontal-->
+<div class="col-md-4 form-horizontal">
+<table class="table footable table-bordered table-hover toggle-circle" data-row-selectable="false">
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD BACK END SET 1 3:</span> TWO SMALL TEAGAN SLIPPER FLORAL CARSON YELLOW OATMEAL HANDY ROCKER DOREL WITH OTTOMAN EBS OFFICE MEETING NARROW PINK DESK COMFORTABLE PURPLE KIDS TUFTED SPACES IN CLEARANCE TEEN ARMS GIRLS FOREST REMOTE WHITE VANITY</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD BACK END SET 1 4:</span> COMFY DINING NURSERY SWIVEL PILLOWS READING COUCH DURABLE PATTERN PRINT SOFT SMOOTH TEXTURE GUESTROOM ENTRYWAY URBAN WHEELS</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD COLOR:</span> BLUE</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD COLOR 2:</span> DARK BROWN</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD FEATURE 3:</span> UPHOLSTERED</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD FEATURE 4:</span> DECORATIVE</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD FEATURE 5:</span> LIVING ROOM BEDROOM</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD MATERIAL - FINISH:</span> FABRIC</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD MATERIAL 2 - FINISH:</span> SOLID WOOD LEGS</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD USAGE:</span> ACCENT CHAIR</td>
+<tr>
+<td class="width-200"><span class="fw600">KEYWORD USAGE 2:</span> ARMLESS</td>
+<tr>
+<td class="width-200"><span class="fw600">LEG - DEPTH / WIDTH:</span> 1.5</td>
+<tr>
+<td class="width-200"><span class="fw600">LEG - HEIGHT:</span> 12</td>
+<tr>
+<td class="width-200"><span class="fw600">LEG - LENGTH:</span> 1.5</td>
+<tr>
+<td class="width-200"><span class="fw600">LEGS - FINISH:</span> NATURAL</td>
+<tr>
+<td class="width-200"><span class="fw600">LEGS - INCLUDED (QTY):</span> 4</td>
+<tr>
+<td class="width-200"><span class="fw600">MATERIAL - 1:</span> FOAM</td>
+<tr>
+<td class="width-200"><span class="fw600">MATERIAL - 2:</span> SOLID WOOD</td>
+<tr>
+<td class="width-200"><span class="fw600">MATERIAL COLOR:</span> BLUE</td>
+<tr>
+<td class="width-200"><span class="fw600">MATERIAL CONTENT (%) POLYESTER:</span> 100</td>
+</tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></table>
+</div><!--form-horizontal-->
+<div class="col-md-4 form-horizontal">
+<table class="table footable table-bordered table-hover toggle-circle" data-row-selectable="false">
+<tr>
+<td class="width-200"><span class="fw600">PACKAGING MATERIAL WEIGHT:</span> 3</td>
+<tr>
+<td class="width-200"><span class="fw600">PATTERN:</span> SOLID</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT - DEPTH / WIDTH:</span> 27.5</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT - HEIGHT:</span> 31.5</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT - LENGTH:</span> 22.75</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT - WEIGHT / LBS:</span> 19</td>
+<tr>
+<td class="width-200"><span class="fw600">PRODUCT TYPE:</span> ACCENT CHAIR, ARMLESS CHAIR</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT - DEPTH:</span> 20.5</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT - WIDTH:</span> 22.75</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT BACK - DEPTH / WIDTH:</span> 3.5</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT BACK - HEIGHT:</span> 14.5</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT BACK - WIDTH:</span> 19.25</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT CUSHION THICKNESS:</span> 7</td>
+<tr>
+<td class="width-200"><span class="fw600">SEAT HEIGHT FROM FLOOR:</span> 19</td>
+<tr>
+<td class="width-200"><span class="fw600">STYLE:</span> CONTEMPORARY</td>
+<tr>
+<td class="width-200"><span class="fw600">STYLE NAME:</span> ARMLESS CHAIR</td>
+<tr>
+<td class="width-200"><span class="fw600">UPHOLSTERY:</span> POLYESTER</td>
+<tr>
+<td class="width-200"><span class="fw600">WEIGHT CAPACITY:</span> 350</td>
+<tr>
+<td class="width-200"><span class="fw600">WOOD PERCENTAGE (%):</span> 30</td>
+<tr>
+<td class="width-200"><span class="fw600">WOOD SPECIES PRIMARY:</span> RUBBERWOOD</td>
+</tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></table>
+</div><!--form-horizontal-->
+</div>
+<!--Features_numRows-->
+<!--if not rsmis.EOF-->
+</div>
+</div><!--col-lg-12-->
+</div>
+<!--MIS end-->
+</div><!--content-->
+</div>
+</div>
+</div><!--page-->
+</div>
+<div class="white-popup-block mfp-hide" id="email-modal">
+<div class="row">
+<div class="col-lg-12">
+<h3 class="text-uppercase">EMAIL PRODUCT INFO PDF</h3>
+<br/>
+</div>
+<div class="col-lg-12">
+<p>Please enter an email address below to send the Product Info pdf </p>
+<div>
+<input class="form-control" id="emailList" name="emailList" placeholder="abc@gmail.com" type="text" value="">
+<div class="alert alert-danger text-uppercase" id="invalidEmailMessage" style="display:none">
+					Invalid Email Address.
+					</div>
+</input></div>
+<br/>
+</div>
+<div class="col-lg-12">
+<a class="btn btn-success modal-dismiss text-uppercase margin-left-10" href="#" id="">CANCEL</a>
+<a class="btn btn-danger text-uppercase" href="#" id="sendEmail">SEND</a>
+</div>
+</div>
+
+</div>
+<a id="backTop">Back To Top</a>
+<!-- Core  -->
+<script src="./_assets/vendor/jquery/jquery.js"></script>
+<script src="./_assets/vendor/bootstrap/bootstrap.js"></script>
+<script src="./_assets/vendor/animsition/jquery.animsition.js"></script>
+<script src="./_assets/vendor/asscroll/jquery-asScroll.js"></script>
+<script src="./_assets/vendor/mousewheel/jquery.mousewheel.js"></script>
+<script src="./_assets/vendor/asscrollable/jquery.asScrollable.all.js"></script>
+<script src="./_assets/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
+<!-- Plugins -->
+<script src="./_assets/vendor/switchery/switchery.min.js"></script>
+<script src="./_assets/vendor/intro-js/intro.js"></script>
+<script src="./_assets/vendor/screenfull/screenfull.js"></script>
+<script src="./_assets/vendor/slidepanel/jquery-slidePanel.js"></script>
+<script src="./_assets/vendor/bootbox/bootbox.js"></script>
+<script src="./_assets/vendor/bootstrap-sweetalert/sweet-alert.js"></script>
+<script src="./_assets/vendor/toastr/toastr.js"></script>
+<script src="./_assets/vendor/jquery-floatthead/jquery.floatThead.js"></script>
+<!-- Scripts -->
+<script src="./_assets/js/core.js"></script>
+<script src="./_assets/js/site.js"></script>
+<script src="./_assets/js/sections/menu.js"></script>
+<script src="./_assets/js/sections/menubar.js"></script>
+<script src="./_assets/js/sections/gridmenu.js"></script>
+<script src="./_assets/js/sections/sidebar.js"></script>
+<script src="./_assets/js/configs/config-colors.js"></script>
+<script src="./_assets/js/configs/config-tour.js"></script>
+<script src="./_assets/js/components/asscrollable.js"></script>
+<script src="./_assets/js/components/animsition.js"></script>
+<script src="./_assets/js/components/slidepanel.js"></script>
+<script src="./_assets/js/components/switchery.js"></script>
+<script src="./_assets/js/components/jquery-placeholder.js"></script>
+<script src="./_assets/js/components/input-group-file.js"></script>
+<script src="./_assets/js/components/bootbox.js"></script>
+<script src="./_assets/js/components/bootstrap-sweetalert.js"></script>
+<script src="./_assets/js/components/toastr.js"></script>
+<script src="./_assets/js/components/jquery-floatthead.js"></script>
+<script src="./_assets/js/custom/jquery.backTop.min.js"></script>
+<script src="_assets/js/components/magnific-popup.js"></script>
+<style>
+.font-weight-bold {
+	font-weight: bold !important;
+}
+
+.dropdown-menu {
+		min-width: 360px;
+}
+
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.media {
+	margin: 3px 0px;
+	line-height: 17px;
+}
+
+.media-left {
+	vertical-align: middle;
+}
+
+.media-meta {
+    margin-bottom: 0px;
+}
+
+
+.mfp-hide {
+    display: none !important;
+}
+
+.white-popup-block {
+	color: #777777;
+	font-size: 14px;
+    background: #FFF;
+    padding: 30px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.white-popup-block-large {
+	color: #777777;
+	font-size: 14px;
+    background: #FFF;
+    padding: 50px 50px 20px 50px;
+    text-align: left;
+    max-width: 90%;
+    margin: 30px auto;
+    position: relative;
+}
+
+
+.white-popup-block h1, .white-popup-block h2, .white-popup-block h3, .white-popup-block h4, .white-popup-block h5 {
+    margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.checkout-button {
+	display: block;
+	vertical-align: bottom;
+	margin-top: 7px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	margin-bottom: 10px;
+}
+
+.spinnerUi > input[type="text"] {
+	width: 70px;
+}
+
+#quickOrder {
+	padding-bottom: 50px;
+}
+
+#quickOrder .title {
+	margin: 10px 0px;
+}
+
+#quickOrder .select2 {
+	margin-bottom: 20px;;
+}
+
+.select2-container, .select2-container--open, .select2-dropdown--below {
+    z-index: 3500;
+}
+
+.modal-dialog .modal-header {
+	padding-bottom: 0px !important;
+}
+
+.modal-open{
+  overflow: auto !important;
+  padding-right: 0px !important;
+}
+
+
+</style>
+<div class="white-popup-block mfp-hide" id="comingSoon">
+<br/>
+<div class="row">
+<div class="col-lg-12">
+<h1 class="text-uppercase text-center">Coming Soon
+			</h1>
+<br/>
+</div>
+<div class="col-lg-12">
+<p class="text-center">
+<a class="btn btn-warning modal-close text-center" href="#" id="">OK</a>
+</p>
+</div>
+</div>
+</div>
+<div class="white-popup-block mfp-hide" id="quickOrder">
+<div class="row">
+<div class="col-lg-12">
+<h3 class="text-uppercase">QUICK ORDER / CHECK INVENTORY </h3> <br/>
+</div>
+<div class="col-lg-12">
+<div class="title"> Please enter the item# below: </div><br/>
+<select class="select2item form-control" placeholder="Search Item#" style="width: 100%"> <i aria-hidden="true" class="icon wb-search"></i>
+</select>
+</div>
+<div class="col-lg-12">
+<div id="infodetail">
+</div>
+</div>
+<div class="col-lg-12">
+<p><a class="btn btn-warning modal-close pull-right" href="#">CANCEL</a> </p>
+</div>
+</div>
+</div>
+<script>
+var userid = "M5143";
+var contactCustno = "05143";
+var contactPostalCode = "V3S9K1";
+var contactEmail = "";
+var contactName = "OWNER";
+var MonarchDirectQuantityLimit = "10";
+
+function quickPartsOrderMbClick(){
+	var destinationUrl = "customer_service_request.asp";
+	var src = "md_accountprofile_stores.asp" + "?userid=" + userid + "&destinationUrl=" + destinationUrl;
+	//alert(src);
+	$.magnificPopup.open({
+		type: 'ajax',
+		closeOnBgClick: false,
+		closeOnContentClick: false,
+		alignTop: true,
+		overflowY: 'scroll', // as we know that popup content is tall we set scroll overflow by default to avoid jump
+		items: {
+			src: src
+		}
+	});
+}
+
+function serviceStatusMbClick(){
+	var destinationUrl = "customer_service_inquiry.asp?";
+	//var data = "action=MonarchDirectCallService" + "&contactPostalCode=" + contactPostalCode  + "&contactCustno=" + contactCustno + "&contactEmail=" + contactEmail + "&contactName=" + contactName;
+	var src = "md_accountprofile_stores.asp" + "?userid=" + userid + "&destinationUrl=" + destinationUrl;
+	//alert(src);
+	$.magnificPopup.open({
+		type: 'ajax',
+		closeOnBgClick: false,
+		closeOnContentClick: false,
+		alignTop: true,
+		overflowY: 'scroll', // as we know that popup content is tall we set scroll overflow by default to avoid jump
+		items: {
+			src: src
+		}
+	});
+}
+
+//
+//function checkoutClick(e){
+//	var url = "md_ordercart_inquiry.asp";
+//	var data = "";
+//	var src = url + data;
+//	//alert(src);
+//	window.location.href = src;
+//} 
+
+$(document).ready(function() {
+
+	
+
+	$("#quickPartsOrder").on("click", function(event) {
+		event.preventDefault();
+		var destinationUrl = "customer_service_request.asp";
+		var src = "md_accountprofile_stores.asp" + "?userid=" + userid + "&destinationUrl=" + destinationUrl;
+		//alert(src);
+		$.magnificPopup.open({
+			type: 'ajax',
+			closeOnBgClick: false,
+			closeOnContentClick: false,
+			alignTop: true,
+			overflowY: 'scroll', // as we know that popup content is tall we set scroll overflow by default to avoid jump
+			items: {
+				src: src
+			}
+		});
+
+	});
+
+	
+
+	$("#serviceStatus").on("click", function(event) {
+		event.preventDefault();
+		var destinationUrl = "customer_service_inquiry.asp?";
+		//var data = "action=MonarchDirectCallService" + "&contactPostalCode=" + contactPostalCode  + "&contactCustno=" + contactCustno + "&contactEmail=" + contactEmail + "&contactName=" + contactName;
+		var src = "md_accountprofile_stores.asp" + "?userid=" + userid + "&destinationUrl=" + destinationUrl;
+		//alert(src);
+		$.magnificPopup.open({
+			type: 'ajax',
+			closeOnBgClick: false,
+			closeOnContentClick: false,
+			alignTop: true,
+			overflowY: 'scroll', // as we know that popup content is tall we set scroll overflow by default to avoid jump
+			items: {
+				src: src
+			}
+		});
+	});
+
+	
+
+	$("#checkout").on("click", function(event) {
+		event.preventDefault();
+		var url = "md_ordercart_inquiry.asp";
+		var data = "";
+		var src = url + data;
+		//alert(src);
+		window.location.href = src;
+	});
+
+	//$("#inputBasicMale").prop('checked', true);
+	//$("#inputBasicFemale").prop('checked', false);
+	getcartinfo();
+
+	$(".comingSoon").on("click", function(event) {
+		event.preventDefault();
+		$.magnificPopup.open({
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			items: {
+				src: '#comingSoon'
+			}
+		});
+	});
+
+
+	$(".quickOrder").on("click", function(event) {
+		event.preventDefault();
+		$.magnificPopup.open({
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			items: {
+				src: '#quickOrder'
+			}
+		});
+	});
+	
+//	$(".catalogueModal").on("click", function(event) {
+//		event.preventDefault();
+//		$.magnificPopup.open({
+//			type: 'inline',
+//			preloader: false,
+//			modal: true,
+//			items: {
+//				src: '#catalogueModal'
+//			}
+//		});
+//	});
+
+	$(document).on('click', '.modal-close', function (e) {
+		e.preventDefault();
+		$.magnificPopup.close();
+	});
+
+	//https://github.com/dimsemenov/Magnific-Popup/issues/280
+	$.magnificPopup.instance._onFocusIn = function(e) {
+		// Do nothing if target element is select2 input
+		if( $(e.target).hasClass('select2-search__field') ) {
+			return true;
+		}
+		// Else call parent method
+		$.magnificPopup.proto._onFocusIn.call(this,e);
+	};
+
+
+});
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkCookie() {
+    var user = getCookie("username");
+    if (user != "") {
+        alert("Welcome again " + user);
+    } else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+            setCookie("username", user, 365);
+        }
+    }
+} 
+
+$(document).ready(function() {
+
+	//userid and custno from md_common.asp
+	$(".cartButton").on("click", function(event) {
+		event.preventDefault();
+		var itemno=$(this).attr("value");
+		var id=$(this).parent().prev().attr("id");
+		var quantity = $(this).parent().parent().find("input[type=text]").val();
+		var messageLabel = "The quantity entered for " + itemno + " is " + quantity + ". Are you sure?"
+		var successLabel = "Yes! Add to order.";
+		
+		var data = "?action=AddItemToCart&userid=" + userid + "&custno=" + contactCustno + "&itemno=" + itemno + "&quantity=" + quantity;
+		//alert(data);
+		if (isNaN(parseInt(quantity)) || !$.isNumeric(quantity)) {
+			toastr.error('Please enter quantity for ' + itemno);
+			return;
+		}
+		else {
+			if (parseInt(quantity) > parseInt(MonarchDirectQuantityLimit)) {
+				bootbox.dialog({
+					message: messageLabel,
+					title: "Please confirm",
+					buttons: {
+					  success: {
+						label: successLabel,
+						className: "btn-success",
+						callback: function() {
+							CallAjax("md_db_action.asp" + data, "ITEM " + itemno + " add to order successfully.");
+						} //callback
+					  },//success
+					  danger: {
+						label: "No. Reset Quantity.",
+						className: "btn-danger",
+						callback: function() {
+							$("#" + id).val("");
+						} //callback
+					  }//danger
+					}//buttons
+				  });//bootbox
+			}
+			else {
+				CallAjax("md_db_action.asp" + data, "ITEM " + itemno + " add to order successfully.");
+				
+			}
+		}
+		
+
+	});
+
+});
+
+function CallAjax(url, message)
+{
+	//alert(url);
+	var itemno =url.substring(url.lastIndexOf("itemno=")+7,url.lastIndexOf("&quantity"));
+	//alert(itemno);
+
+	$.ajax({
+		url: url,
+		type: 'POST',
+		//data: $form.serialize(),
+		error: function() {
+			toastr.error('Cannot Update. Pls Contact IT'+'');
+		},
+		success: function(data) {
+			toastr.success(message);
+			//toastr.success("Item " + itemno + " add to cart successfully.");
+			//$("#" + target).html(data);
+			//disableAllInput();
+			//reload page
+			//location.reload();
+			getcartinfo();
+		}
+	}); //ajax
+
+}
+
+function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+
+function getcartinfo()
+{
+	var data = "action=GetCartItems&userid=" + userid + "&contactCustno=" + contactCustno;
+	
+	$.ajax({
+		type: 'GET',
+		url: 'md_db_action.asp?'+data,
+		dataType: 'json',
+		success: function (data) {
+			//alert(data);
+			// data is already processed
+			$(data).each(function(i,val){
+				$.each(val,function(k,v){
+					//console.log(k+" : "+ v);
+				});
+			});
+//			alert( data[0].imageFileName);
+			var items = "";
+			var itemCount = 0;
+			var pono = "";
+			var previousPono = "";
+			var total = 0;
+			for(var i = 0; i < data.length; i++) {
+				var obj = data[i];
+				console.log(obj.itemNo);
+				console.log(obj.imageFileName);
+				console.log(obj.Desc);
+				console.log(obj.quantity);
+				pono = "";
+				items += '<div class="media">';
+				items += '<div class="media-left padding-right-10">';
+				items += '<img style="padding: 5px 1px" src='+ obj.imageFileName + ' alt="' + obj.itemNo + '" width="100px"/>';
+				items += '</div>';
+				items += '<div class="media-body text-middle">';
+				items += '<div class="media-heading font-weight-bold fs14">' + 'SKU: '+ obj.itemNo + '</div>';
+				items += '<div class="media-heading  fs14">' + obj.Desc + '</div>';
+				items += '<div class="media-meta  fs14">';
+				items += '<time>'  + 'QUANTITY: ' + obj.quantity + '';
+				items += '</time>'
+				items += '</div>';
+				items += '</div>';
+				items += '</div>';
+				itemCount += parseInt(obj.quantity);
+				total += parseInt(obj.quantity) * parseFloat(obj.price);
+			}
+
+			var ponoHtml = "";
+
+			$("#cartSummary").html("ORDER SUMMARY - " + ponoHtml );
+			$("#cntnewitem").html(itemCount);
+			$("#cartItems").html(items);
+			if (itemCount == 0) {
+				$("#cartInfoTitle").html(itemCount + " ITEM");
+			}
+			
+				$("#cartInfoTitle").html(itemCount + " item(s) | Total: $" + total.toFixed(2));
+			
+
+
+			if (itemCount == 0) {
+				
+				$('#cntnewitem').hide();
+				$('#cartItemsempty').show();
+				$("#checkout").hide();
+				$('.scrollable-container').css('min-height', '100px');
+				$('#cartNmb').addClass('hidden');
+		 	}
+			else {
+				 $('#cntnewitem').show();
+				 $('#cartItemsempty').hide();
+				 $("#checkout").show();
+				 $('.scrollable-container').css('min-height', '240px');
+				 $('#cartNmb').removeClass('hidden');
+				 $('#cartNmb').html(itemCount);
+			}
+		}
+
+	});
+
+}
+
+//https://stackoverflow.com/questions/19999388/check-if-user-is-using-ie-with-jquery
+/**
+ * detect IE
+ * returns version of IE or false, if browser is not Internet Explorer
+ */
+function detectIE() {
+    var ua = window.navigator.userAgent;
+
+    var msie = ua.indexOf('MSIE ');
+    if (msie > 0) {
+        // IE 10 or older => return version number
+        return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+    }
+
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {
+        // IE 11 => return version number
+        var rv = ua.indexOf('rv:');
+        return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+    }
+
+    var edge = ua.indexOf('Edge/');
+    if (edge > 0) {
+       // Edge (IE 12+) => return version number
+       return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+    }
+
+    // other browser
+    return false;
+}
+
+</script>
+<!-- Plugins -->
+<script src="_assets/vendor/datatables/jquery.dataTables.js"></script>
+<script src="./_assets/vendor/typeahead-js/bloodhound.min.js"></script>
+<script src="./_assets/vendor/typeahead-js/typeahead.jquery.min.js"></script>
+<script src="_assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+<script src="./_assets/vendor/select2/select2.js"></script>
+<script src="_assets/vendor/bootstrap-select/bootstrap-select.js"></script>
+<script src="_assets/vendor/multi-select/jquery.multi-select.js"></script>
+<script src="_assets/vendor/bootbox/bootbox.js"></script>
+<script src="_assets/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+<!-- Scripts -->
+<script src="_assets/js/plugins/sticky-header.js"></script>
+<script src="_assets/js/plugins/action-btn.js"></script>
+<script src="_assets/js/plugins/selectable.js"></script>
+<script src="_assets/js/components/aspaginator.js"></script>
+<script src="_assets/js/app.js"></script>
+<script src="_assets/js/components/animate-list.js"></script>
+<script src="_assets/js/components/jquery-placeholder.js"></script>
+<script src="_assets/js/components/material.js"></script>
+<script src="_assets/js/components/selectable.js"></script>
+<script src="./_assets/js/components/select2.js"></script>
+<script src="_assets/js/components/bootbox.js"></script>
+<script src="_assets/js/components/bootstrap-select.js"></script>
+<script src="_assets/js/components/magnific-popup.js"></script>
+<!--for carosule-->
+<script src="_assets/vendor/slick-carousel/slick.js"></script>
+<script src="./_assets/vendor/asspinner/jquery-asSpinner.min.js"></script>
+<script src="./_assets/js/components/asspinner.js"></script>
+<script src="_assets/vendor/bootstrap-table/bootstrap-table.js"></script>
+<script src="_assets/vendor/bootstrap-table/extensions/export/bootstrap-table-export.js"></script>
+<script src="_assets/vendor/bootstrap-table/extensions/mobile/bootstrap-table-mobile.js"></script>
+<script src="_assets/js/custom/bootstrap.js"></script>
+<script src="md_common_js.js"></script>
+<script>
+(function(document, window, $) {
+  'use strict';
+
+  var Site = window.Site;
+
+  $(document).ready(function($) {
+	Site.run();
+  }); //end: document.ready
+
+  // Slick Autoplay
+    // ----------------------
+    $('#ProductImgAutoPlay').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000
+    });
+
+ 	toastr.options = {
+            positionClass: 'toast-top-right',
+  	}
+
+    $('#backTop').backTop({
+           'position' : 600,
+           'speed' : 500,
+           'color' : 'blue', //monarch-blue
+    });
+
+    $(function () {
+
+         $('#exportpdf').click(function () {
+				window.open('http://winapp2/apps/PDFreator/pdf_generator.php?URL=http://winapp/apps/main/exp_product_presentation_pdf.asp?filter_itemno=I 8274');
+				$.ajax({
+					type: "POST",
+					url: "exp_product_email_attachment.asp?filter_itemno=I 8274",
+					error: function() {
+							toastr.error('Cannot email product PDF. Pls Contact IT.');
+					},
+					success: function() {
+							toastr.success('Product PDF is sent.');
+
+				  }
+				});
+         }); //exportpdf
+
+     });//function
+
+//   add the auto refresh time frame here
+	var hours = Math.floor( ((1000*60*60)) );
+  	var timeFrame = parseInt(hours)*12;
+	//alert(timeFrame);
+	
+	setTimeout(function() {
+        document.location.reload()
+  	}, timeFrame);
+
+
+})(document, window, jQuery);
+
+
+var itemno = "I 8274"
+$(document).ready(function() {
+
+	$("#emailpdf").click(function () {
+		var data= "?" + $(this).attr("value");
+		$.magnificPopup.open({
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			items: {
+				src: '#email-modal'
+			}
+		});
+	});
+
+	$(document).on('click', '.modal-dismiss', function (e) {
+		$("#invalidEmailMessage").hide();
+		$("#emailList").val("");
+		e.preventDefault();
+		$.magnificPopup.close();
+	});
+
+	$("#sendEmail").click(function (e) {
+		var emailList = $("#emailList").val();
+		var emailListArray = emailList.split(";");
+		var arrayLength = emailListArray.length;
+		//alert(emailList);
+		url = "md_db_action.asp?action=SendEmail&emailList=" + emailList + "&itemno=" + itemno ;
+		//alert(url);
+
+		var validEmail = true;
+		for (var i = 0; i < arrayLength; i++) {
+			var currentEmail = emailListArray[i].trim();
+			if (currentEmail.length < 3 || !validateEmail(currentEmail)) {
+				validEmail = false;
+			}
+		}
+
+		if (!validEmail) {
+			$("#invalidEmailMessage").show();
+		}
+		else {
+			$("#invalidEmailMessage").hide();
+			$("#emailList").val("");
+
+			$.ajax({
+				url: url,
+				type: 'POST',
+				error: function() {
+					toastr.error('Cannot send email. Pls Contact IT '+'');
+				},
+				success: function(data) {
+					toastr.success('Email sent successfully.');
+				}
+			});
+
+			e.preventDefault();
+			$.magnificPopup.close();
+		}
+
+
+	});
+
+	//slider might not finish loading, so the height is not correct
+	//resizeSlider();
+	//setTimeout(function(){ resizeSlider(); }, 1000);
+	//setTimeout(function(){ resizeSlider(); }, 3000);
+});
+
+function validateEmail(email) {
+	var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+	return emailReg.test( email );
+}
+
+function resizeSlider()
+{
+	var containerHeight = $(".item-description").height();	// 30pixels for margin bottom
+	//var containerHeight = $(".item-description").height() - 30;	// 30pixels for margin bottom
+	//alert(containerHeight);
+
+	$(".slick-slide").each(function() {
+		var myHeight = $(this).height();
+		if (myHeight > containerHeight) {
+			containerHeight = myHeight;
+		}
+	});
+
+	$(".slick-slide").each(function() {
+		var myHeight = $(this).height();
+		var padding = (containerHeight - myHeight) / 2;
+		//alert(myHeight);
+		$(this).css("min-height", containerHeight - padding * 2);
+		$(this).css("padding", padding + "px 0px");
+	});
+}
+
+</script>
+<a id="backTop"><i class="fa fa-angle-up fa-lg"></i></a>
+</body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-114692620-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114692620-1');
+</script>
+</html>
