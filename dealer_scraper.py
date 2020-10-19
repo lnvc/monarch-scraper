@@ -1,16 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
-# import asyncio
-# from contextlib import closing
-# import grequests
-# from gevent import monkey as curious_george
-
-# curious_george.patch_all(thread=False, select=False)
 
 
 # VARIABLES
 categories = ['accents', 'bar', 'bedroom', 'dining', 'entertainment', 'home decor', 'living room', 'office', 'tables', 'youth']
-# categories = ['bar']
 cookies = {
     'ASPSESSIONIDACCASTTA': 'CIAHKGHDLDOEGNBIMMEJFNDP',
     'ASPSESSIONIDACBDQRRD': 'IPMBALHDGCEKDFABFHEEMNDD',
@@ -73,10 +66,6 @@ for key in urls:
 
 if(len(errors) > 0):
     print('your connection timed out. scrape these skus again: ' + str(list(errors)))
-# res = (grequests.get('http://www.monarchdirect.ca/md_product_inquiry.asp', headers=headers, params=urls[key], cookies=cookies, verify=False, hooks={'response' : make_soup}) for key in urls)
-# grequests.map(res)
-
-# asyncio.run(main())
 
 
 
